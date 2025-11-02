@@ -1,0 +1,214 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[ngerman]{babel}
+\usepackage{multirow}
+\usepackage{xltxtra}
+\usepackage[utf8x]{inputenc}
+\usepackage{fontspec}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage[paper=a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{makecell}
+\usepackage[table]{xcolor}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage{xcolor,colortbl}
+\definecolor{Gray}{gray}{0.85}
+\usepackage[automark]{scrlayer-scrpage}
+\usepackage[
+	colorlinks=true,
+	urlcolor=blue,
+	linkcolor=green
+]{hyperref}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1ex}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\usepackage[defaultsans]{droidsans}
+\renewcommand*\familydefault{\sfdefault}
+\begin{document}
+\input{theme.tex}
+\input{version.tex}
+\input{common.tex}
+\ohead{Regelstand: \commitDate, id: \commitID}
+\title{\tagYear\ Line Following Challenge Regeln}
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+\begin{center}
+	\rrgerLogo
+	\huge                      % Schriftgröße einstellen
+	\bfseries                   % Fettdruck einschalten
+	\\
+	\inserttitle
+\end{center}
+
+\section{Ziel}
+Entwerfe, konstruiere und programmiere einen Linienfolge-Roboter, der mittels
+Sensor (in vorgegebener Zeit) einer schwarzen Linie auf weißem Hintergrund zu
+einem Turm folgen und mindestens einen (1) Ball abgeben und dann zu seinem
+Ausgangspunkt zurückkehren kann. In der verbleibenden Zeit kehrt er zum Turm
+zurück (so oft wie nötig), um eine bestimmte Anzahl (nicht über oder unter) von
+Bällen gemäß den Vorgaben der jeweiligen Altersgruppe des Teams abzugeben.
+
+\section{Wer kann teilnehmen?}
+
+Teams aus 2 bis 4 Spieler:innen in \textbf{getrennten Altersgruppen}:
+\begin{itemize}
+	\item Grundschule (ES)
+	\item Mittelstufe (MS)
+	\item Oberstufe (HS)
+	\item Universität/Beruf (UP)
+\end{itemize}
+\combineDivisions
+
+\section{Anforderungen}
+\robotRequirements
+\begin{itemize}
+	\item Der Roboter kann auf einer Teststrecke demonstrieren, dass er
+		ein Linienfolge-Programm ausführt.
+	\item Der Roboter kann demonstrieren, dass er beim Erreichen des Turms
+		anhält; es muss nicht nachgewiesen werden, dass er eine Kugel
+		auswerfen oder sich umdrehen kann.
+	\item Mehrere Sensoren und Prozessoren sind erlaubt.
+	\item Das Volumen des Roboters darf 65030 cm3 nicht überschreiten.
+\end{itemize}
+
+\section{Allgemeine Spielregeln}
+\begin{itemize}
+	\item \scoreRuns
+	\item Der Roboter hat 3 Minuten Zeit, um die Aufgaben zu erledigen.
+	\item Ein Linienfolgeprogramm muss die Bewegung Deines Roboters zu
+		jeder Zeit kontrollieren.
+	\item Nur die Spieler:innen dürfen den Roboter während des Laufs
+		bedienen und handhaben. Denkt daran: ``Spieler:innen spielen,
+		Trainer:innen trainieren, Eltern jubeln''.
+	\item Der Turm darf während der Auslieferung der Nutzlast von niemandem
+		berührt werden.
+	\item \textbf{Kein Herausschaufeln von Kugeln aus dem Turm durch eine
+		Person während der Auslieferung der Nutzlast.}
+	\item Wenn der Roboter zu irgendeinem Zeitpunkt berührt wird, muss er
+		hochgehoben und zum Startpunkt zurückgebracht werden.
+\end{itemize}
+
+\section{Challenge Spezifikation}
+\subsection{Der Turm}
+Größenangaben sind Richtwerte von denen es leichte Abweichungen geben kann.
+\begin{itemize}
+	\item Alle Altersgruppen benutzen den gleichen $20 cm$ hohen
+		$\times 10 cm$ breiten $\times 35 cm$ langen Turm mit einer
+		$10\times10 cm$ großen Öffnung an der Oberseite und einer
+		offenen Rückwand, aus der die Bälle bei der Auslieferungen
+		herausrollen können. Der Karton ist mit Klettband am Spielplan
+		fixiert.
+	\item Wenn Punktrichter:innen sehen, dass ein Teammitglied den Turm
+		berührt oder in diesen hineingreift, wird der Lauf abgebrochen
+		und das Team bekommt nur 400 Punkte für das Absolvieren der
+		Challenge Bahn unabhängig davon wieviele Bälle ausgeliefert
+		wurden.
+\end{itemize}
+
+\subsection{Der Spielplan}
+\begin{itemize}
+	\item Die Spielpläne werden üblicherweise auf stabilem Papier,
+		PVC-Plane oder $3mm$ Schaumplatte gedruckt.
+	\item Altersgruppe ES – Keine Abzweigungen, $1,25 cm$ schwarze Linie
+	\item Altersgruppe MS – Eine Abzweigung, $1,25 cm$ schwarze Linie
+	\item Altersgruppen HS \& UP – Zwei Abzweigungen, $0,75 cm$ schwarze
+		Linie
+	\item Jedes Jahr wird ein neues Design erstellt
+	\item Es führen mindestens $20 cm$ gerade Linie direkt zum Turm hin
+	\item Die Linie wird nicht weniger als $10 cm$ vom Rand des Spielplanes
+		oder von irgendeiner anderen Linie entfernt sein
+	\item Werbung oder gedruckte Anweisungen können überall auf dem
+		Spielplan platziert sein, müssen aber einen Abstand von
+		mindestens $10 cm$ zu den Linien einhalten.
+	\item Die Kurven können sich im Radius unterscheiden, aber keine Kurve
+		darf einen Radius kleiner als $15 cm$ haben.
+\end{itemize}
+
+\subsection{Spielplan Beispiele}
+\includegraphics[width=1\textwidth]{images/tracks_lf.png}
+%\includegraphics[width=0.3\textwidth]{images/track_ms_lf.png}
+%\includegraphics[width=0.3\textwidth]{images/track_hs_lf.png}
+\emph{Die abgebildeten Spielpläne sind \textbf{Beispiele}. Das Design ändert sich von Jahr zu
+Jahr und wird am ersten Tag des Wettbewerbes veröffentlicht.}
+
+\subsection{Andere wichtige Punkte }
+\begin{itemize}
+	\item \lightConditions
+	\item Die Veranstaltungsleitung kann entscheiden den HS Spielplan für
+		die Altersgruppe UP zu verwenden oder einen schwierigeren
+		Spielplan zu erstellen. Außerdem kann die Öffnung des Turms für
+		die Altersgruppe UP verkleinert werden
+\end{itemize}
+
+\section{Punktevergabe}
+Die Gesamtpunktzahl ist die Summe der Punkte aus:
+\begin{itemize}
+	\item Absolvieren der Bahn zum Turm
+	\item Ausliefern von mindestens einem Ball
+	\item Rückkehr des Roboters zum Ausgangspunkt
+	\item Ausliefern der erforderlichen Anzahl an Bällen
+\end{itemize}
+
+Jede Altersgruppe hat eine vorgegebene Anzahl an Bällen auszuliefern. Die
+Zahlen werden am Tag des Wettbewerbes veröffentlicht. Dies sind die Bereiche
+aus welchen die Anzahl Bälle der Altersgruppen gewählt sein müssen:
+\begin{itemize}
+	\item Altersgruppe ES - zwischen 75 und 125 Bällen
+	\item Altersgruppe MS - zwischen 125 und 200 Bällen
+	\item Altersgruppe HS – zwischen 200 und 250 Bällen
+	\item Altersgruppe UP - zwischen 100 und 350 Bällen (die Zahl ist
+		niedrig sollte die Öffnung des Turms verkleinern sein)
+\end{itemize}
+
+Die Anzahl Punkte die für die erste Fahrt zum Turm und zurück in den
+entsprechenden Altersgruppe vergeben werden, kann der untenstehenden
+Punktetabelle entnommen werden.
+
+\subsection{Ein erfolgreicher Lauf ist wie folgt definiert:}
+\begin{itemize}
+	\item Der Roboter absolviert den Parcour vom Startpunkt zum Turm,
+		liefert mindestens einen Ball aus und kehrt entlang der Bahn
+		wieder zum Ausgangspunkt zurück. Alle während dieses Durchlaufs
+		ausgelieferten Bälle werden entfernt und werden nicht als
+		Bonuspunkte gezählt
+\end{itemize}
+Nachdem alle oben genannten Aufgaben erledigt wurden, kannst du Bonuspunkt
+Läufe durchführen:
+
+\begin{itemize}
+	\item Bei einem Bounspunkt Lauf absolviert der Roboter die Bahn vom
+		Startpunkt zum Turm und liefert die in der Altersgruppe
+		geforderte Anzahl Punkte aus. Während der Bonuspunkt Läufe muss
+		der Roboter nicht der Bahn vom Turm zurück zum Startpunkt
+		folgen
+\end{itemize}
+
+\subsection{Punktevergabe beim Ausliefern von Bonusbällen}
+\begin{itemize}
+	\item Wenn die Anzahl der Bälle unter der erforderlichen Anzahl Bälle
+		liegt, ist dies die Anzahl der Bonuspunkte
+	\item Wenn die Anzahl der Bälle über der erforderlichen Anzahl Bälle
+		liegt, dann wird der Überschuss von der erforderlichen Anzahl
+		abgezogen und das Ergebnis ist die die Anzahl der Bonuspunkte
+\end{itemize}
+
+\section{Punktetabelle}
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|} \hline
+		\multirow{3}*{} & Verlässt & Passiert erste & Passiert zweite & Stoppt vor dem & Liefert einen \\
+		& Startpunkt & Abzweigung & Abzweigung & Karton & Ball zum Karton \\ \hline
+		ES & 50 & k.A & k.A & 100 & 100 \\ \hline
+		MS & 25 & 25 & k.A & 100 & 100 \\ \hline
+		HS/UP & 25 & 25 & 25 & 50 & 100 \\ \hline
+	\end{tabular}
+	\begin{tabular}{|c|c|c|c|c|c|} \hline
+		\multirow{3}*{} & Startet den & Passiert erste & Passiert zweite & Kommt am & Gesamt \\
+		& Rückweg & Abzweigung & Abzweigung & Startpunkt an &  \\ \hline
+		ES & 50 & k.A. & k.A. & 100 & 400 \\ \hline
+		MS & 25 & 25 & k.A. & 100 & 400 \\ \hline
+		HS/UP & 25 & 25 & 25 & 100 & 400 \\ \hline
+	\end{tabular}
+\end{center}
+\end{document}
