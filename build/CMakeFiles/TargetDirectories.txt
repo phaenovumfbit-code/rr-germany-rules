@@ -1,0 +1,10 @@
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/firefighting_de.dir
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/amazeing_de.dir
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/jousting_de.dir
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/linefollowing_de.dir
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/sumobot_de.dir
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/entrepreneurial_de.dir
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/cyberspace_de.dir
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/cyberspace_en.dir
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/edit_cache.dir
+C:/Users/flori/Downloads/rr-germany-rules/build/CMakeFiles/rebuild_cache.dir
