@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.11.2)  9 NOV 2025 17:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.11.2)  9 NOV 2025 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -830,15 +830,15 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 [1
 
 ]
-Overfull \hbox (16.21878pt too wide) in paragraph at lines 126--128
+Overfull \hbox (16.21878pt too wide) in paragraph at lines 125--127
 []\TU/DroidSans(0)/m/n/12 Konfliktlösung - während des Spiels sind die Entschei
 dungen der Punktrichter:innen
  []
 
-[2]
+[2] [3]
 File: tournament_score/tournament_score.pdf Graphic file (type pdf)
 <use tournament_score/tournament_score.pdf>
- [3] (C:/Users\flori\Downloads\rr-germany-rules\build\_sumobot_de.aux)
+ [4] (C:/Users\flori\Downloads\rr-germany-rules\build\_sumobot_de.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -856,4 +856,4 @@ Here is how much of TeX's memory you used:
  123i,19n,121p,444b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on C:/Users\flori\Downloads\rr-germany-rules\build\_sumobot_de.p
-df (3 pages).
+df (4 pages).

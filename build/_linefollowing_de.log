@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.11.2)  9 NOV 2025 17:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.11.2)  9 NOV 2025 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,13 +765,13 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 94.
+(Font)              scaled to size 14.4pt on input line 96.
 Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
  at 14.4pt
  -> C:/Program Files/MiKTeX/fonts/truetype/ascender/droid/droidsans/DroidSans.t
 tf
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 94.
+(Font)              scaled to size 14.4pt on input line 96.
 Requested font "[DroidSans-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-t
 ext;" at 14.4pt
  -> C:/Program Files/MiKTeX/fonts/truetype/ascender/droid/droidsans/DroidSans-B
@@ -780,13 +780,13 @@ old.ttf
 File: images/tracks_lf.png Graphic file (type bmp)
 <images/tracks_lf.png>
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/b/it' will be
-(Font)              scaled to size 12.0pt on input line 135.
+(Font)              scaled to size 12.0pt on input line 137.
 Requested font "[DroidSans-Bold.ttf]/OT:script=latn;language=dflt;slant=0.213;m
 apping=tex-text;" at 12.0pt
  -> C:/Program Files/MiKTeX/fonts/truetype/ascender/droid/droidsans/DroidSans-B
 old.ttf
  [3] [4]
-Overfull \hbox (32.04999pt too wide) in paragraph at lines 200--214
+Overfull \hbox (32.04999pt too wide) in paragraph at lines 202--216
  [] 
  []
 
